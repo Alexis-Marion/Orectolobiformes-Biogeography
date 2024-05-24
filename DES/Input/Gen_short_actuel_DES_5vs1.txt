@@ -1,0 +1,15 @@
+scientificName	higherGeography
+Brachaelurus	Hors_Tethys
+Chiloscyllium	Hors_Tethys
+Cirrhoscyllium	Hors_Tethys
+Ginglymostoma	Hors_Tethys
+Hemiscyllium	Hors_Tethys
+Nebrius	Hors_Tethys
+Orectolobus	Hors_Tethys
+Parascyllium	Hors_Tethys
+Pseudoginglymostoma	Hors_Tethys
+Rhincodon	Hors_Tethys
+Stegostoma	Hors_Tethys
+
+
+
