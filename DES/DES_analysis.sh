@@ -1,0 +1,1 @@
+python PyRate/PyRateDES.py -d Output/Orectolobiformes_1.txt -TdD -TdE -n 200000 -s 2000 -p 20000
