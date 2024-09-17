@@ -1,6 +1,6 @@
 ### BDMCMC/RJMCMC
 
-# Paramètres en entrées
+# Input parameters
 # $1 .py occurence file
 # $2 BDMCMC / RJMCMC
 # $3 number of cpu

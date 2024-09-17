@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 scientificName	195.0	185.0	175.0	165.0	155.0	145.0	135.0	125.0	115.0	105.0	95.0	85.0	75.0	65.0	55.0	45.0	35.0	25.0	15.0	5.0	0.0
 Acanthoscyllium_sahelalmae	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
 Adnetoscyllium_angloparisensis	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
@@ -126,3 +127,6 @@ Rhincodon_typus	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	
 Squatiscyllium_casieri	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0
 Squatiscyllium_nigeriensis	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	0.0	0.0	0.0	0.0	0.0	0.0
 Stegostoma_tethysiensis	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0
+=======
+
+>>>>>>> 4499836734913ddbc64a3b1174d237fb6bac77ef

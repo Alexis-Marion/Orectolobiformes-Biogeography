@@ -1,100 +1,46 @@
 # Orectolobiformes-diversification
 
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "" but can be generalized to other similar data.</p>
 
+## Overview
 
+<p align="justify"> This repository contains scripts for performing the following analyses:
 
-Rscript corHMM-ASE-replicated.r ../../raw_data/Squaliformes_posterior_distribution.tree 4 habitat
+**1**: Analyses of historical biogeography
 
+**2**: Bayesian analyses of the fossil record
 
-Rscript corHMM-ASE-replicated.r ../../raw_data/Multi_Squaliformes_fossil_posterior_distribution.tree 4 habitat_fossilized
+### 1 Analyses of historical biogeography
 
+### 1.1 Dispersal Extinction Cladogenesis (DEC)
 
-Rscript corHMM-ASE-replicated.r ../../raw_data/Squaliformes_posterior_distribution.tree 3 bioluminescent
+In this section, you may find all the data and scripts required to perform the DEC model.
+The Input section, you may find : the consensus tree (Orectolobiformes_extant_tree.nex); the connectivity matrix (Transition_matrix.txt), the time period file (time_period.txt); the presence-absence file (table_geo.txt) and the posterior tree distribution (posterior_distribution_100_tree_orecto.tree)
+The DEC script used for is DEC_extant_species.ipynb (jupyter notebook, written in R)
 
+### 1.2 Dispersal Extinction Sampling (DES)
 
-Rscript corHMM-ASE-replicated.r ../../raw_data/Multi_Squaliformes_fossil_posterior_distribution.tree 3 bioluminescent_fossilized
+In this section, you may find the data required to perform a DES analysis.
+The Input section contains data for extinct genus (Gen_short_fossil_DES_5vs1.txt) species (Sp_short_fossil_DES_5vs1.txt) and extant genus (Gen_short_actuel_DES_5vs1.txt) and species (Sp_short_actuel_DES_5vs1.txt). Allt the input data are for the 5vs1 scenario (Tethys vs the rest of the world).
+Assuming you have access to PyRate in your main directory, the two main scripts are DES_Input.sh (used for generating input DES data) and DES_analysis.sh (perform the DES analysis).
 
+### 2 Bayesian analyses of the fossil record
 
-Squaliformes_extant.tree
+In this section (PyRate), you will have access to all the scripts and data required to perform a PyRate BDS (Birth-death-skyline) model.
+The Input section contains  unformatted data for extinct genus (Data_gen_short.txt) species (Data_sp_short.txt), the formatted data (100 replicates) for extinct genus (Data_gen_short_PyRate.py) species (Data_sp_short_PyRate.py), taxon list for extinct genus (Data_gen_short_TaxonList.txt) and species (Data_sp_short_TaxonList.txt) and the epoch file (epochs.txt).
+This section also includes the script required to perform the preservation model selection (Corsair_model_preservation_test.sh; script_pm.sh), performing a PyRate analysis (Analyses_BDMCMC_RJMCMC.sh) and assessing run convergence (assess_run_convergence.py)
 
-Rscript corHMM-ASE-consensus.r ../../raw_data/Squaliformes_extant.tree 4 habitat
+### 2.1 Preservation analyses
 
+This first round of analysis is rather straightforward and mainly focused on selecting the best-fit preservation model (based on AIC) for the PyRate run. 
 
-Rscript corHMM-ASE-consensus.r ../../raw_data/Squaliformes_fossil.tree 4 habitat_fossilized
+To do so, the user has just to run  and fill in the following parameters (1) .py occurrence file, (2) number of CPU, (3) epochs file, (4) output_directory
 
+At the end of this model selection run, the best-fit model will be presented in a boxplot pdf file.
 
-Rscript corHMM-ASE-consensus.r ../../raw_data/Squaliformes_extant.tree 3 bioluminescent
+### 2.2 Birth-death-Skyline model
 
+The second and last round of PyRate analyses is just performing the regular PyRate BDS analysis (assuming you have previously performed preservation model selection). with the script Analyses_BDMCMC_RJMCMC.sh.
+This script required as input (1) .py occurence file, (2) the type of analysis (BDMCMC / RJMCMC), (3) number of CPU, (4) epochs file (preservation rate), (5) number of extant lineage and (6) epochs file (time shifts).
 
-Rscript corHMM-ASE-consensus.r ../../raw_data/Squaliformes_fossil.tree 3 bioluminescent_fossilized
-
-
-
-convert nexus to newick
-
-
-
-Then perform the regular ancestral state esimation 
-
-
-corHMMM done
-
-hOUwie done
-
-OUwie -> 
-
-Rscript OUwie_consensus.r 
-
-Rscript OUwie_consensus.r corHMM/habitat.rds 9 OUwie/habitat.tsv OUwie/habitat.rds
-
-Rscript OUwie_consensus.r corHMM/habitat_fossilized.rds 9 OUwie/habitat_fossilized.tsv OUwie/habitat_fossilized.rds
-
-Rscript OUwie_consensus.r corHMM/bioluminescent.rds 7 OUwie/bioluminescent.tsv OUwie/bioluminescent.rds
-
-Rscript OUwie_consensus.r corHMM/bioluminescent_fossilized.rds 7 OUwie/bioluminescent_fossilized.tsv OUwie/bioluminescent_fossilized.rds
-
-
-
-extract results ...
-
-PyRate -> no singleton
-
-
-
-bash pp_test/Genus/Corsair_model_preservation_test.sh Datasets/Genus/Occ_gn_Squali_PyRate.py 20
-bash pp_test/Species/Corsair_model_preservation_test.sh Datasets/Species/Occ_sp_Squali_PyRate.py 20
-
-bash pp_test/Genus_NS/Corsair_model_preservation_test.sh Datasets/Genus_NS/Occ_gn_Squali_NS_PyRate.py 20
-bash pp_test/Species_NS/Corsair_model_preservation_test.sh Datasets/Species_NS/Occ_sp_Squali_NS_PyRate.py 20
-
-
-
-
-echo "Rscript Panova_hOUwie_consensus_habitat_Replicated.r \$1" > tmp_hab_script.sh
-		parallel -j 20 bash tmp_hab_script.sh ::: {1..100}
-
-
-echo "Rscript Panova_hOUwie_consensus_bioluminescence_Replicated.r \$1" > tmp_biol_script.sh
-		parallel -j 20 bash tmp_biol_script.sh ::: {1..100}
-
-
-### R console
-
-source("pyrate_utilities.r ")
-
-extract.ages(file="…/PyRate_file.txt", replicates=N)
-
-
-bash 
-
-
-python assess_run_convergence.py -dir Results/Species_NS/5_MA_bins_EXT_EP/pyrate_mcmc_logs/ -ana BDS
-
-
-Rscript plot_ess.r Results/Species_NS/5_MA_bins_EXT_EP/pyrate_mcmc_logs/ESS_summary.txt Stat_5_MA_NS_EXT_EP_Species.pdf
-
-
-python assess_run_convergence.py -dir Results/Species_NS/5_MA_bins_EXT_EP_FT/pyrate_mcmc_logs/ -ana BDS
-
-
-Rscript plot_ess.r Results/Species_NS/5_MA_bins_EXT_EP_FT/pyrate_mcmc_logs/ESS_summary.txt Stat_5_MA_NS_EXT_EP_FT_Species.pdf
+When this run is performed, it is highly recommended to asses the convergence of each PyRate run with the script assess_run_convergence.py which require as input (1) the input directory (output from PyRate analysis) (2) the burn-in threshold and (3) the type of analysis (BDS/RJMCMC)

@@ -1,0 +1,1 @@
+python PyRate/PyRateDES.py -fossil Input/Gen_short_fossil_DES_5vs1.txt -recent Input/Gen_short_actuel_DES_5vs1.txt -wd Output/ -filename Orectolobiformes -bin_size 10 -rep 10
