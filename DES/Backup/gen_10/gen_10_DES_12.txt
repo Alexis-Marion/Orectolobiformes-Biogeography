@@ -1,0 +1,50 @@
+scientificName	195.0	185.0	175.0	165.0	155.0	145.0	135.0	125.0	115.0	105.0	95.0	85.0	75.0	65.0	55.0	45.0	35.0	25.0	15.0	5.0	0.0
+Acanthoscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Adnetoscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Almascyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Annea	nan	2.0	2.0	2.0	2.0	0.0	0.0	0.0	2.0	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Brachaelurid (gen. nov.)	nan	nan	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Brachaelurus	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	1.0	0.0	1.0
+Cantioscyllium	nan	nan	nan	nan	2.0	0.0	0.0	2.0	0.0	3.0	3.0	3.0	3.0	3.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Cederstroemia	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	2.0	3.0	3.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Chiloscyllium	nan	nan	nan	nan	nan	nan	nan	1.0	0.0	1.0	3.0	3.0	3.0	3.0	2.0	1.0	1.0	0.0	2.0	0.0	1.0
+Coelometlaouia	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Cretorectolobus	nan	nan	nan	nan	nan	nan	2.0	2.0	2.0	2.0	1.0	1.0	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Delpitoscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	3.0	0.0	0.0	0.0	0.0	0.0	0.0
+Dorsetoscyllium	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Eometlaouia	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0
+Eostegostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	3.0	2.0	0.0	0.0	0.0	0.0
+Folipistrix	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Ganntouria	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Garrigascyllium	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Ginglymostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	3.0	3.0	3.0	3.0	2.0	3.0	3.0	3.0	1.0
+Hemiscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	3.0	2.0	3.0	2.0	0.0	0.0	0.0	1.0
+Heterophorcynus	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Hologinglymostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	0.0	0.0	0.0	0.0	0.0	0.0
+Magistrauia	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Mesiteia	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Nebrius	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	3.0	3.0	3.0	3.0	3.0	1.0	1.0
+Notoramphoscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	1.0	0.0	0.0	0.0	0.0	0.0
+Orecto gen. nov.1	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Orecto gen. nov.2	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Orectolobiformes indet.	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Orectoloboides	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	3.0	0.0	0.0	0.0	0.0	2.0	0.0	3.0	0.0	0.0	0.0
+Orectolobus	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	0.0	1.0	1.0	1.0	1.0
+Ornatoscyllium	nan	nan	2.0	2.0	0.0	0.0	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Palaeobrachaelurus	nan	2.0	2.0	2.0	2.0	0.0	0.0	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Palaeocarcharias	nan	nan	nan	nan	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Palaeorectolobus	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Palaeorhincodon	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	3.0	3.0	0.0	0.0	0.0	0.0
+Paraginglymostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Parahemiscyllium	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Pararhincodon	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	3.0	2.0	2.0	3.0	3.0	2.0	3.0	0.0	0.0	0.0	0.0
+Parascyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	1.0
+Phorcynis	nan	nan	nan	2.0	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Plicatoscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	3.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Protoginglymostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	3.0	0.0	0.0	0.0	0.0	0.0
+Pseudoginglymostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	2.0	2.0	1.0	0.0	0.0	0.0	0.0	0.0	1.0
+Pseudospinax	nan	nan	nan	2.0	0.0	0.0	0.0	0.0	0.0	2.0	2.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Restesia	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+Rhincodon	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	1.0	1.0	3.0	1.0	1.0
+Squatiscyllium	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	2.0	0.0	0.0	0.0	0.0	0.0
+Stegostoma	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	nan	3.0	2.0	0.0	0.0	1.0

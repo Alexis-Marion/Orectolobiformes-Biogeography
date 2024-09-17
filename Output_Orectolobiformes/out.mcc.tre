@@ -1,0 +1,49 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=38;
+	Taxlabels
+		Brachaelurus_colcloughi
+		Brachaelurus_waddi
+		Chiloscyllium_arabicum
+		Chiloscyllium_burmensis
+		Chiloscyllium_griseum
+		Chiloscyllium_hasseltii
+		Chiloscyllium_indicum
+		Chiloscyllium_plagiosum
+		Chiloscyllium_punctatum
+		Cirrhoscyllium_formosanum
+		Eucrossorhinus_dasypogon
+		Ginglymostoma_cirratum
+		Ginglymostoma_unami
+		Hemiscyllium_galei
+		Hemiscyllium_hallstromi
+		Hemiscyllium_halmahera
+		Hemiscyllium_henryi
+		Hemiscyllium_michaeli
+		Hemiscyllium_ocellatum
+		Hemiscyllium_strahani
+		Hemiscyllium_trispeculare
+		Nebrius_ferrugineus
+		Orectolobus_floridus
+		Orectolobus_halei
+		Orectolobus_hutchinsi
+		Orectolobus_japonicus
+		Orectolobus_leptolineatus
+		Orectolobus_maculatus
+		Orectolobus_ornatus
+		Orectolobus_parvimaculatus
+		Orectolobus_reticulatus
+		Orectolobus_wardi
+		Parascyllium_collare
+		Parascyllium_ferrugineum
+		Pseudoginglymostoma_brevicaudatum
+		Rhincodon_typus
+		Stegostoma_fasciatum
+		Sutorectus_tentaculatus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((((Orectolobus_japonicus[&index=11]:1.227892,Orectolobus_leptolineatus[&index=10]:1.227892)[&index=39,posterior=1.000000,age_95%_HPD={1.22789,1.22789}]:2.070099,Orectolobus_maculatus[&index=12]:3.297991)[&index=40,posterior=1.000000,age_95%_HPD={3.29799,3.29799}]:2.474311,Orectolobus_halei[&index=9]:5.772302)[&index=41,posterior=1.000000,age_95%_HPD={5.7723,5.7723}]:3.764421,(Orectolobus_hutchinsi[&index=13]:7.853056,Orectolobus_parvimaculatus[&index=14]:7.853056)[&index=42,posterior=1.000000,age_95%_HPD={7.85306,7.85306}]:1.683667)[&index=43,posterior=1.000000,age_95%_HPD={9.53672,9.53672}]:10.471506,((Orectolobus_floridus[&index=7]:5.802351,Sutorectus_tentaculatus[&index=6]:5.802351)[&index=44,posterior=1.000000,age_95%_HPD={5.80235,5.80235}]:11.436822,Orectolobus_ornatus[&index=8]:17.239173)[&index=45,posterior=1.000000,age_95%_HPD={17.2392,17.2392}]:2.769056)[&index=46,posterior=1.000000,age_95%_HPD={20.0082,20.0082}]:10.864812,Eucrossorhinus_dasypogon[&index=5]:30.873041)[&index=47,posterior=1.000000,age_95%_HPD={30.873,30.873}]:20.358237,(Orectolobus_reticulatus[&index=3]:7.774502,Orectolobus_wardi[&index=4]:7.774502)[&index=48,posterior=1.000000,age_95%_HPD={7.7745,7.7745}]:43.456776)[&index=49,posterior=1.000000,age_95%_HPD={51.2313,51.2313}]:99.797148,(Brachaelurus_colcloughi[&index=1]:45.533447,Brachaelurus_waddi[&index=2]:45.533447)[&index=50,posterior=1.000000,age_95%_HPD={45.5334,45.5334}]:105.494979)[&index=51,posterior=1.000000,age_95%_HPD={151.028,151.028}]:33.467832,((((((Hemiscyllium_galei[&index=25]:6.118444,Hemiscyllium_henryi[&index=24]:6.118444)[&index=52,posterior=1.000000,age_95%_HPD={6.11844,6.11844}]:3.290904,Hemiscyllium_halmahera[&index=26]:9.409348)[&index=53,posterior=1.000000,age_95%_HPD={9.40935,9.40935}]:1.873890,((Hemiscyllium_michaeli[&index=22]:5.344005,Hemiscyllium_trispeculare[&index=23]:5.344005)[&index=54,posterior=1.000000,age_95%_HPD={5.344,5.344}]:2.081432,Hemiscyllium_hallstromi[&index=21]:7.425437)[&index=55,posterior=1.000000,age_95%_HPD={7.42544,7.42544}]:3.857801)[&index=56,posterior=1.000000,age_95%_HPD={11.2832,11.2832}]:5.885323,(Hemiscyllium_ocellatum[&index=28]:12.139670,Hemiscyllium_strahani[&index=27]:12.139670)[&index=57,posterior=1.000000,age_95%_HPD={12.1397,12.1397}]:5.028891)[&index=58,posterior=1.000000,age_95%_HPD={17.1686,17.1686}]:57.083906,(((Chiloscyllium_arabicum[&index=33]:8.146380,Chiloscyllium_burmensis[&index=32]:8.146380)[&index=59,posterior=1.000000,age_95%_HPD={8.14638,8.14638}]:32.105447,(Chiloscyllium_griseum[&index=35]:0.488980,Chiloscyllium_hasseltii[&index=34]:0.488980)[&index=60,posterior=1.000000,age_95%_HPD={0.48898,0.48898}]:39.762847)[&index=61,posterior=1.000000,age_95%_HPD={40.2518,40.2518}]:21.639891,((Chiloscyllium_indicum[&index=30]:35.082247,Chiloscyllium_plagiosum[&index=31]:35.082247)[&index=62,posterior=1.000000,age_95%_HPD={35.0822,35.0822}]:18.715385,Chiloscyllium_punctatum[&index=29]:53.797632)[&index=63,posterior=1.000000,age_95%_HPD={53.7976,53.7976}]:8.094086)[&index=64,posterior=1.000000,age_95%_HPD={61.8917,61.8917}]:12.360749)[&index=65,posterior=1.000000,age_95%_HPD={74.2525,74.2525}]:72.271061,((((Ginglymostoma_cirratum[&index=20]:4.989678,Ginglymostoma_unami[&index=19]:4.989678)[&index=66,posterior=1.000000,age_95%_HPD={4.98968,4.98968}]:45.261558,Nebrius_ferrugineus[&index=18]:50.251236)[&index=67,posterior=1.000000,age_95%_HPD={50.2512,50.2512}]:37.268836,(Pseudoginglymostoma_brevicaudatum[&index=17]:79.873713,Rhincodon_typus[&index=16]:79.873713)[&index=68,posterior=1.000000,age_95%_HPD={79.8737,79.8737}]:7.646359)[&index=69,posterior=1.000000,age_95%_HPD={87.5201,87.5201}]:9.775512,Stegostoma_fasciatum[&index=15]:97.295584)[&index=70,posterior=1.000000,age_95%_HPD={97.2956,97.2956}]:49.227944)[&index=71,posterior=1.000000,age_95%_HPD={146.524,146.524}]:37.972730)[&index=72,posterior=1.000000,age_95%_HPD={184.496,184.496}]:63.054947,((Parascyllium_collare[&index=38]:2.090984,Parascyllium_ferrugineum[&index=37]:2.090984)[&index=73,posterior=1.000000,age_95%_HPD={2.09098,2.09098}]:77.714406,Cirrhoscyllium_formosanum[&index=36]:79.805390)[&index=74,posterior=1.000000,age_95%_HPD={79.8054,79.8054}]:167.745815)[&index=75,posterior=1.000000,age_95%_HPD={247.551,247.551}]:0.000000;
+End;

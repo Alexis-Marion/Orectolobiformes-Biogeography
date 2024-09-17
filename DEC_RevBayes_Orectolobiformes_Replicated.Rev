@@ -1,0 +1,130 @@
+range_fn = "Data_orectolobiformes/Orectolobiformes_range.nex"
+tree_fn = "Data_orectolobiformes/posterior_distribution_100_tree_orecto.nex"
+out_fn = "Output_Orectolobiformes/out_tree" + args[1]
+
+geo_fn = "Data_orectolobiformes/Orectolobiformes"
+times_fn = geo_fn + ".times.txt"
+
+moves = VectorMoves()
+monitors = VectorMonitors()
+
+dat_range_01 = readDiscreteCharacterData(range_fn)
+n_areas <- dat_range_01.nchar()
+
+max_areas <- 5
+n_states <- 0
+for (k in 0:max_areas) n_states += choose(n_areas, k)
+
+dat_range_n = formatDiscreteCharacterData(dat_range_01, "DEC", n_states)
+
+state_desc = dat_range_n.getStateDescriptions()
+state_desc_str = "state,range\n"
+for (i in 1:state_desc.size()){
+    state_desc_str += (i-1) + "," + state_desc[i] + "\n"
+}
+write(state_desc_str, file=out_fn+".state_labels.txt")
+
+tree <- readTrees(tree_fn)[args[1]]
+
+time_bounds <- readDataDelimitedFile(file=times_fn, delimiter=" ")
+n_epochs <- time_bounds.size()
+
+for (i in 1:n_epochs) {
+      epoch_fn[i] = geo_fn + "_connectivity_" + i + ".txt"
+      connectivity[i] <- readDataDelimitedFile(file=epoch_fn[i], delimiter=" ")
+}
+
+rate_bg ~ dnLoguniform(1E-4,1E2)
+rate_bg.setValue(1E-2)
+
+moves.append( mvSlide(rate_bg, weight=4) )
+
+dispersal_rate <- 1.0
+
+for (i in 1:n_epochs) {
+    for (j in 1:n_areas) {
+        for (k in 1:n_areas) {
+            dr[i][j][k] <- 0.0
+                if (connectivity[i][j][k] > 0) {
+                    dr[i][j][k]  := dispersal_rate
+                }
+        }
+    }
+}
+
+log_sd <- 0.5
+log_mean <- ln(1) - 0.5*log_sd^2
+extirpation_rate ~ dnLognormal(mean=log_mean, sd=log_sd)
+moves.append( mvScale(extirpation_rate, weight=2) )
+
+for (i in 1:n_epochs) {
+    for (j in 1:n_areas) {
+        for (k in 1:n_areas) {
+            er[i][j][k] <- 0.0
+        }
+        er[i][j][j] := extirpation_rate
+    }
+}
+
+for (i in 1:n_epochs) {
+    Q_DEC[i] := fnDECRateMatrix(dispersalRates=dr[i],
+                extirpationRates=er[i],
+                maxRangeSize=max_areas)
+}
+
+for (i in 1:n_epochs) {
+    time_max[i] <- time_bounds[i][1]
+    time_min[i] <- time_bounds[i][2]
+    if (i != n_epochs) {
+        epoch_times[i] ~ dnUniform(time_min[i], time_max[i])
+        moves.append( mvSlide(epoch_times[i], delta=(time_max[i]-time_min[i])/2) )
+    } else {
+        epoch_times[i] <- 0.0
+    }
+}
+
+Q_DEC_epoch := fnEpoch(Q=Q_DEC, times=epoch_times, rates=rep(1,n_epochs))
+
+clado_event_types <- [ "s", "a" ]
+p_sympatry ~ dnUniform(0,1)
+p_allopatry := abs(1.0 - p_sympatry)
+clado_type_probs := simplex(p_sympatry, p_allopatry)
+moves.append( mvSlide(p_sympatry, weight=2) )
+P_DEC := fnDECCladoProbs(eventProbs=clado_type_probs,
+                         eventTypes=clado_event_types,
+                         numCharacters=n_areas,
+                         maxRangeSize=max_areas)
+
+rf_DEC_tmp <- rep(0, n_states)
+rf_DEC_tmp[2] <- 1
+rf_DEC <- simplex(rf_DEC_tmp)
+
+m_bg ~ dnPhyloCTMCClado(tree=tree,
+                        Q=Q_DEC_epoch,
+                        cladoProbs=P_DEC,
+                        branchRates=rate_bg,
+                        rootFrequencies=rf_DEC,
+                        type="NaturalNumbers",
+                        nSites=1)
+
+m_bg.clamp(dat_range_n)
+
+monitors.append( mnScreen(printgen=100, rate_bg, extirpation_rate) )
+monitors.append( mnModel(file=out_fn+".model.log", printgen=10) )
+monitors.append( mnFile(tree, filename=out_fn+".tre", printgen=10) )
+monitors.append( mnJointConditionalAncestralState(tree=tree,
+                                                  ctmc=m_bg,
+                                                  type="NaturalNumbers",
+                                                  withTips=true,
+                                                  withStartStates=true,
+                                                  filename=out_fn+".states.log",
+                                                  printgen=10) )
+
+monitors.append( mnStochasticCharacterMap(ctmc=m_bg,
+                                          filename=out_fn+".stoch.log",
+                                           printgen=100) )
+
+mymodel = model(m_bg)
+
+mymcmc = mcmc(mymodel, moves, monitors)
+mymcmc.run(10000)

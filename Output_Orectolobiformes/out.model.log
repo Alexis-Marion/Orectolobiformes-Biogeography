@@ -1,0 +1,2 @@
+Iteration	Posterior	Likelihood	Prior	clado_type_probs[1]	clado_type_probs[2]	epoch_times[1]	epoch_times[2]	epoch_times[3]	epoch_times[4]	epoch_times[5]	epoch_times[6]	epoch_times[7]	epoch_times[8]	epoch_times[9]	epoch_times[10]	epoch_times[11]	epoch_times[12]	epoch_times[13]	epoch_times[14]	extirpation_rate	p_allopatry	p_sympatry	rate_bg
+0	-121.6293	-86.75003	-34.87927	0.423556	0.576444	258.937	222.437	215.983	191.753	152.656	131.34	118.224	90.1651	75.1256	58.9855	21.764	16.7218	3.26253	0	1.102313	0.5764444	0.4235556	0.01
