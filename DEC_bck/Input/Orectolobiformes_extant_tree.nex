@@ -1,0 +1,89 @@
+#NEXUS
+[R-package APE, Tue May 21 10:54:15 2024]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 38;
+	TAXLABELS
+		Brachaelurus_colcloughi
+		Brachaelurus_waddi
+		Chiloscyllium_arabicum
+		Chiloscyllium_burmensis
+		Chiloscyllium_griseum
+		Chiloscyllium_hasseltii
+		Chiloscyllium_indicum
+		Chiloscyllium_plagiosum
+		Chiloscyllium_punctatum
+		Cirrhoscyllium_formosanum
+		Eucrossorhinus_dasypogon
+		Ginglymostoma_cirratum
+		Ginglymostoma_unami
+		Hemiscyllium_galei
+		Hemiscyllium_hallstromi
+		Hemiscyllium_halmahera
+		Hemiscyllium_henryi
+		Hemiscyllium_michaeli
+		Hemiscyllium_ocellatum
+		Hemiscyllium_strahani
+		Hemiscyllium_trispeculare
+		Nebrius_ferrugineus
+		Orectolobus_floridus
+		Orectolobus_halei
+		Orectolobus_hutchinsi
+		Orectolobus_japonicus
+		Orectolobus_leptolineatus
+		Orectolobus_maculatus
+		Orectolobus_ornatus
+		Orectolobus_parvimaculatus
+		Orectolobus_reticulatus
+		Orectolobus_wardi
+		Parascyllium_collare
+		Parascyllium_ferrugineum
+		Pseudoginglymostoma_brevicaudatum
+		Rhincodon_typus
+		Stegostoma_fasciatum
+		Sutorectus_tentaculatus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Brachaelurus_colcloughi,
+		2	Brachaelurus_waddi,
+		3	Chiloscyllium_arabicum,
+		4	Chiloscyllium_burmensis,
+		5	Chiloscyllium_griseum,
+		6	Chiloscyllium_hasseltii,
+		7	Chiloscyllium_indicum,
+		8	Chiloscyllium_plagiosum,
+		9	Chiloscyllium_punctatum,
+		10	Cirrhoscyllium_formosanum,
+		11	Eucrossorhinus_dasypogon,
+		12	Ginglymostoma_cirratum,
+		13	Ginglymostoma_unami,
+		14	Hemiscyllium_galei,
+		15	Hemiscyllium_hallstromi,
+		16	Hemiscyllium_halmahera,
+		17	Hemiscyllium_henryi,
+		18	Hemiscyllium_michaeli,
+		19	Hemiscyllium_ocellatum,
+		20	Hemiscyllium_strahani,
+		21	Hemiscyllium_trispeculare,
+		22	Nebrius_ferrugineus,
+		23	Orectolobus_floridus,
+		24	Orectolobus_halei,
+		25	Orectolobus_hutchinsi,
+		26	Orectolobus_japonicus,
+		27	Orectolobus_leptolineatus,
+		28	Orectolobus_maculatus,
+		29	Orectolobus_ornatus,
+		30	Orectolobus_parvimaculatus,
+		31	Orectolobus_reticulatus,
+		32	Orectolobus_wardi,
+		33	Parascyllium_collare,
+		34	Parascyllium_ferrugineum,
+		35	Pseudoginglymostoma_brevicaudatum,
+		36	Rhincodon_typus,
+		37	Stegostoma_fasciatum,
+		38	Sutorectus_tentaculatus
+	;
+	TREE * UNTITLED = [&R] (((33:2.090983046,34:2.090983046):77.71440594,10:79.80538899):167.7458155,((((((5:0.4889798239,6:0.4889798239):39.76284656,(3:8.146379179,4:8.146379179):32.1054472):21.6398909,((8:35.0822461,7:35.0822461):18.71538518,9:53.79763128):8.094086002):12.36074891,((19:12.13966909,20:12.13966909):5.02889133,((16:9.409347399,(14:6.118443881,17:6.118443881):3.290903518):1.873890203,((21:5.344004982,18:5.344004982):2.081431636,15:7.425436618):3.857800984):5.885322817):57.08390577):72.27106085,((((12:4.989676077,13:4.989676077):45.26155838,22:50.25123445):37.26883614,(35:79.87371137,36:79.87371137):7.646359228):9.775512304,37:97.2955829):49.22794414):37.97273017,((((((30:7.85305557,25:7.85305557):1.683667081,((28:3.297990286,(26:1.227891007,27:1.227891007):2.070099279):2.47431102,24:5.772301306):3.764421346):10.47150573,(29:17.23917197,(23:5.802350217,38:5.802350217):11.43682175):2.769056415):10.86481209,11:30.87304048):20.35823678,(32:7.774501645,31:7.774501645):43.45677561):99.79714766,(2:45.53344556,1:45.53344556):105.4949794):33.46783229):63.05494728);
+END;

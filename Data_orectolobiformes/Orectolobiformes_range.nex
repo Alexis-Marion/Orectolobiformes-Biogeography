@@ -1,7 +1,6 @@
 #NEXUS
-[Data written by write.nexus.data.R, Wed Jun 19 15:03:30 2024]
 BEGIN DATA;
-  DIMENSIONS NTAX=38 NCHAR=6;
+  DIMENSIONS NTAX=38 NCHAR=7;
   FORMAT DATATYPE=STANDARD MISSING=? GAP=- INTERLEAVE=NO labels="01";
   MATRIX
     Brachaelurus_colcloughi                000010
