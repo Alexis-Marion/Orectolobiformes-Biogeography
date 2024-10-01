@@ -5,12 +5,21 @@
 # epochs_rate_shift_5_Myrs.txt is your epoch file for shifts (truncated 5 Myrs in this case)
 # Preservation/epochs.txt is your epoch file for preservation
 
+# Genus
+
 cp ../Data/Data_Occ_gen_Orecto_PyRate.py Genus/Data_Occ_gen_Orecto_PyRate.py
 
 echo "python ../../PyRate/PyRate.py  Genus/Data_Occ_gen_Orecto_PyRate.py -fixShift epochs_rate_shift_10_MA_crisis.txt -j \$1 -qShift Preservation/Genus/epochs_preservation.txt -mG -n 20000000 -s 20000 -N 11" > tmp_script.sh
 		parallel -j 20 bash tmp_script.sh ::: {1..20}
 		
+# Species
+		
 cp ../Data/Data_Occ_sp_Orecto_PyRate.py Species/Data_Occ_sp_Orecto_PyRate.py
 
 echo "python ../../PyRate/PyRate.py  Species/Data_Occ_sp_Orecto_PyRate.py -fixShift epochs_rate_shift_10_MA_crisis.txt -j \$1 -qShift Preservation/Species/epochs_preservation.txt -mG -n 20000000 -s 20000 -N 44" > tmp_script.sh
+		parallel -j 20 bash tmp_script.sh ::: {1..20}
+	
+# Species combined
+		
+echo "python ../../PyRate/PyRate.py  -d Species_combined/TS_TE/Data_Occurences_sp_\$1_G_KEEP_BDS_se_est.txt -fixShift epochs_rate_shift_10_MA_crisis.txt -n 20000000 -s 20000 -N 44" > tmp_script.sh
 		parallel -j 20 bash tmp_script.sh ::: {1..20}
