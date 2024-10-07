@@ -1,17 +1,8 @@
-Event	Age (in Myrs)	Adjacency East Pacific	Adjacency East Atlantic	Adjacency Tethys	Adjacency West Indo-Pacific	Adjacency Central Indo-Pacific	Adjacency Temperate Australia
-Today	1	c(1,2,4,5,6)	c(1,2,4,5,6)	0	c(1,2,4,5,6)	c(1,2,4,5,6)	c(1,2,4,5,6)
-Isthmus of Panama closing	3.1	1	c(2,4)	0	c(4,5)	c(4,5,6)	c(5,6)
-Zanclean flood	5.96	c(1,2)	c(2,4)	0	c(4,5)	c(4,5,6)	c(5,6)
-Terminal Tethys event	15	c(1,2)	c(2,4)	0	c(4,5)	c(4,5)	6
-Bin 5	35	c(1,2)	c(2,3,4)	c(2,3,4)	c(2,3,4,5)	c(4,5)	6
-Bin 6	55	c(1,2)	c(1,2,3,4)	c(2,3,4,5)	c(2,3,4,5)	c(3,4,5)	6
-Bin 7	75	c(1,2)	c(1,2,3,4)	c(2,3,4,5)	c(2,3,4)	c(3,5)	6
-Bin 8	95	c(1,2)	c(1,2,3,4)	c(2,3,4,5)	c(2,3,4)	c(3,5)	6
-Bin 9	115	c(1,2)	c(1,2,3)	c(2,3,4,5)	c(3,4,6)	c(3,5)	c(5,6)
-Bin 10	135	c(1,2)	c(1,2,3)	c(2,3,4,5)	c(3,4)	c(3,5)	0
-Bin 11	155	c(1,2)	c(1,2,3)	c(2,3,4,5)	c(3,4)	c(3,5)	0
-Bin 12	175	1	c(2,3)	c(2,3,5)	0	c(3,5)	0
-Bin 13	195	1	0	c(3,5)	0	c(3,5)	0
-Bin 14	215	1		c(3,5)	0	c(3,5)	0
-Bin 15	235	1	0	c(3,5)	0	c(3,5)	0
-Bin 16	255	1	0	c(3,5)	0	c(3,5)	0
+Event	Age (in Myrs)	Adjacency East Pacific	Adjacency West Atlantic	Adjacency East Atlantic	Adjacency Tethys	Adjacency West Indo-Pacific	Adjacency Central Indo-Pacific	Adjacency Australasia
+Zanclean-Holocene	3.1	1	2	c(3,4)	c(3,4)	c(5,6)	c(5,6,7)	c(6,7)
+Langhian-Zanclean	15.97	c(1,2)	c(1,2)	c(3,4)	c(3,4)	c(5,6)	c(5,6,7)	c(6,7)
+Rupelian-Burdigalian	33.9	c(1,2)	c(1,2)	c(3,4)	c(3,4,5)	c(4,5,6)	c(5,6)	7
+Ypresian-Priabonian	56	c(1,2,6)	c(1,2,3)	c(2,3,4,5)	c(3,4,5,6)	c(3,4,5)	c(1,4,6)	7
+Cenomanian-Thanetian	100.5	c(1,2,6,7)	c(1,2,3)	c(2,3,4,5)	c(3,4,5,6)	c(3,4,5)	c(1,4,6)	c(1,7)
+Aalenian-Albian	174.1	c(1,2)	c(1,2,3)	c(2,3,4)	c(3,4,5,6)	c(4,5,7)	c(4,6)	c(5,7)
+Capitanian-Toarcien	264.28	c(1,4,6,7)	0	0	c(1,4,5,6)	c(4,5,7)	c(1,4,6)	c(1,5,7)
