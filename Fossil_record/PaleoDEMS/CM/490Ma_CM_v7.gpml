@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0339" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-886a74be-16aa-4eba-bc48-39eb180797f7</gpml:identity>
+            <gpml:revision>GPlates-4acfa523-b783-4940-90a5-047d3ed2bc21</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">43.313178059999991 148.5 43.23751253999999 150.86251254000001 42.626156830000006 157.33615682999999 41.454615140000001 163.73461513999999 41.043303739999999 165.23308806 41.037799239999998 167.26279933999999 40.507903059999997 171.72790305999999 39.603234439999994 173.40823444 39.03934314 175.13934313999999 38.369435860000003 176.55943586000001 37.674915830000003 177.52491583000003 36.541348210000002 178.18634821000001 34.439778830000002 178.69977883000001 32.940763459999999 179.96576346000001 -89.319939299999859 179.99993929999999 -89.960149330001187 179.83514933000001 -89.999984751115093 -179.24998475000001 -89.835149329999922 -179.96014933000001 32.778151080000001 -179.94084397 32.456872629999999 -179.77298257999999 30.873910120000005 -179.73108988000001 30.308009299999998 -179.54854979999999 30.262859269999993 -178.13785927000001 30.590149629999999 -176.12104524 30.424729130000003 -175.37027087000004 29.144412499999998 -173.98058750000001 24.04648315 -169.63851685 22.97000139 -168.91499861 21.125083679999999 -168.23991631999999 19.81346083 -168.06133521000001 17.632547580000001 -168.46254758000001 15.70037737 -169.04575922999999 13.070691650000001 -169.12918783999999 8.3491388600000001 -167.18086114000002 7.3798470399999996 -166.60015296 5.74871526 -164.60628474000001 4.7567162600000001 -162.68928600000001 5.2077450299999999 -159.10424114 5.1234908099999998 -158.49144036000001 4.8179208500000001 -157.91707915000001 4.3653721499999998 -157.49962785 3.1132065299999998 -156.89179347000001 1.47631212 -155.77868788000001 -0.45242740000000004 -154.2124274 -4.3189745200000003 -150.45397452 -6.2555140199999997 -148.17051402000001 -9.2078956200000004 -145.66289562 -16.16024496 -136.13024496 -17.391340589999999 -133.96134058999999 -18.433875700000002 -132.96887570000001 -20.75362805 -131.55862805000001 -22.727642899999999 -131.0476429 -24.64820439 -130.24820439000001 -26.620117740000001 -130.07011774 -28.95850046 -128.45850046000001 -29.892679399999999 -127.9926794 -34.873956509999999 -126.41395651000001 -37.143890489999997 -125.48389048999999 -39.573052599999997 -125.01305260000001 -41.180751450000002 -124.47075144999999 -43.63252481 -123.46752481000001 -45.793264639999997 -121.96826463999999 -46.687255350000001 -120.70725535 -47.992718240000002 -119.43271824000001 -48.520113590000001 -118.44011380000001 -48.541852689999992 -117.17546129 -49.071420700000004 -114.45142070000001 -49.58233371 -109.37233371000001 -50.522474430000003 -96.83747443 -50.88629452 -94.806294519999994 -51.800459029999999 -91.990459029999997 -52.467023779999998 -88.952023780000005 -55.39173421000001 -82.986734209999995 -55.699750799999997 -82.781818360000003 -56.511210689999999 -82.762697070000002 -56.963417870000001 -82.163417870000004 -57.270941099999995 -81.200941099999994 -57.516645579999995 -79.091645580000005 -58.845924599999996 -75.8659246 -60.222684999999998 -74.227684999999994 -61.950671139999997 -72.805671140000001 -62.698810089999995 -72.378810090000002 -64.038120770000006 -72.348345760000001 -64.948625860000007 -72.113625859999999 -66.622842419999998 -71.242842420000002 -71.002307470000019 -69.697331660000003 -71.770585939999989 -69.699452190000002 -73.430911289999983 -70.420968610000003 -73.629569520000004 -70.315041210000004 -73.640462090000014 -68.429537909999993 -73.409869350000008 -66.959867700000004 -73.704903239999993 -65.592882329999995 -72.842238570000021 -65.027761429999998 -71.838268830000004 -64.99326963 -69.934512630000015 -65.484512629999998 -67.790612200000012 -68.255612200000002 -66.305585830000012 -69.310585829999994 -65.040108129999993 -69.775013079999994 -63.889960190000004 -69.636513699999995 -62.935816040000006 -69.826872629999997 -62.043991290000001 -69.706008710000006 -61.281072909999992 -69.323927089999998 -59.325499839999999 -67.719500159999996 -57.929766000000001 -66.285234000000003 -57.525972070000002 -65.146852249999995 -58.526819070000002 -63.621819070000008 -60.944883339999997 -61.369883340000008 -64.091236159999994 -57.641236159999998 -67.062392679999988 -54.972392679999992 -68.029362689999999 -52.929362689999998 -69.459142720000003 -50.899142719999993 -71.007263199999983 -47.347263199999993 -71.781810359999994 -44.646810360000011 -72.170712060000014 -38.350712059999992 -72.637159450000013 -36.04215945 -73.474747339999993 -29.084747340000007 -74.276262429999989 -20.516262430000005 -75.878170470000001 -14.753170470000001 -76.633440650000011 -9.4787073599999996 -76.72850492000002 -6.9485049200000013 -77.327341799999999 -3.7623418000000002 -77.892130829999999 2.9578154300000001 -77.901648669999986 11.513351330000001 -78.093113119999984 12.981886879999999 -78.096372059999993 15.096372060000002 -77.614151050000004 22.970943670000004 -77.693407719999996 25.886542489999997 -77.476249390000021 29.495883480000003 -77.543524310000009 31.063524309999998 -77.153810820000018 36.548761419999998 -77.140645489999983 42.493467619999997 -76.698907989999995 44.132474979999998 -76.787047330000007 45.462736589999999 -76.457440079999984 47.422440080000001 -76.201369179999986 53.806310770000003 -76.344777309999984 55.82594632 -75.991201759999981 62.04977757000001 -76.122062819999996 65.057937179999996 -76.780365780000011 69.059634220000007 -77.351739400000014 70.098260600000003 -77.941645609999981 70.6533479 -78.338340600000009 70.779134650000003 -80.092719279999983 69.992719280000003 -80.66965811 68.939658109999996 -81.484016749999995 68.434016749999998 -81.697854270000008 67.98785427 -81.915017180000021 64.060017180000003 -82.339519669999987 60.68451967 -82.461663709999996 56.911663709999999 -82.839509690000014 54.334509689999997 -82.963087969999989 49.633087969999998 -83.387831399999968 47.107831400000002 -83.483057549999998 44.200628810000005 -83.852950350000029 45.077049649999992 -84.453464849999961 45.956074999999998 -84.685279829999971 45.635137319999998 -84.833065249999962 44.563065250000001 -84.952099870000012 29.512099869999997 -85.246196769999969 25.351196770000001 -85.20185549 21.776855490000003 -85.448437339999984 14.658437340000001 -85.452309070000013 5.8523090700000004 -85.741275769999959 3.3562757700000003 -85.848184939999982 -0.52681506 -85.849846770000013 -10.964846769999999 -85.502227169999969 -15.50722717 -85.443211330000025 -29.37321133 -85.315642999999952 -30.925643000000001 -85.012843779999983 -31.952843779999998 -84.865315899999999 -34.810315899999999 -84.508710019999995 -36.363710019999999 -84.375387849999981 -39.685387849999998 -84.012634869999971 -40.97263487 -83.795637220000017 -42.950637219999997 -83.576479909999975 -43.291479909999993 -82.988340480000019 -43.483340480000003 -82.548168679999989 -43.913168679999998 -82.002062190000018 -45.632062189999999 -82.019230689999986 -47.340769310000006 -82.473964600000016 -48.0860354 -82.583130680000011 -49.977726539999999 -83.032742269999986 -52.082257730000002 -82.867692870000013 -54.544468610000003 -83.347896029999973 -56.267103970000001 -83.170898060000027 -58.434581140000006 -83.778483359999981 -60.091516640000009 -84.066684659999979 -62.858315339999997 -84.302138529999979 -63.822861469999992 -84.649555919999969 -64.370412169999994 -84.681347290000005 -64.926894919999995 -84.321686049999968 -66.791686049999996 -83.698683269999989 -67.029565090000006 -82.991520980000004 -66.688982760000002 -82.180287780000015 -67.455287780000006 -81.94744098000001 -68.417440979999995 -81.346834229999985 -68.861834229999999 -80.83161118000001 -70.141611179999998 -80.150076440000021 -70.980076440000005 -79.128648609999999 -71.316022720000007 -78.205350939999988 -71.227184170000001 -78.031441659999984 -71.495043240000001 -78.118023350000016 -72.423400839999999 -78.535277020000009 -73.359722980000001 -79.978973029999992 -75.4037419 -80.653608750000004 -75.402457440000006 -81.170209389999997 -75.674790610000002 -82.033304320000013 -77.416695680000004 -84.508833179999996 -81.211166820000003 -85.009737130000005 -81.836894220000005 -85.34425286000004 -81.414252829999995 -85.546383050000003 -80.296383050000003 -85.658939520000018 -71.438939520000005 -86.495458649999975 -62.870458649999996 -86.498000390000016 -51.976842560000001 -86.465546660000015 -51.746551600000004 -86.02615396000003 -56.19035370000001 -85.514115439999969 -56.883832810000001 -85.186372619999958 -56.964943230000003 -85.007840250000001 -56.677154860000002 -84.679938540000023 -50.932059510000002 -84.874975879999965 -48.554975880000001 -85.19091355999997 -47.540968399999997 -85.50624722000002 -47.340507649999999 -85.793079560000024 -47.517154750000003 -86.463689700000032 -50.366718589999998 -86.985219889999968 -46.980219890000001 -87.14988418999998 -29.694884189999996 -87.098437340000046 -2.7915626599999994 -86.989219080000012 0.34421907999999996 -86.657842300000027 2.1578423000000004 -86.568570349999973 6.5161218799999991 -86.747891100000047 8.0621089000000001 -86.65653185000005 10.833468150000002 -86.986620689999967 11.853379310000001 -86.998684730000008 13.883684730000002 -86.653271290000063 16.54179809 -86.546816129999996 42.131816129999997 -86.206348859999977 44.386348859999998 -86.045896310000003 55.210896310000003 -85.652419779999974 60.247419779999994 -85.596383049999986 75.196383049999994 -85.499106029999979 76.018159490000002 -85.274283449999999 74.255716550000002 -84.814803330000018 72.730196669999998 -83.986258149999998 70.998741850000002 -83.738062149999976 69.482416330000007 -83.487744809999981 69.247823010000005 -83.266269390000005 69.706271290000004 -82.819944840000034 73.704944839999996 -82.589427959999995 78.589427959999995 -82.172418409999992 82.372418409999995 -81.987994740000005 82.596956280000001 -81.277381999999989 82.769224960000003 -80.882333460000012 83.362333460000002 -80.543213640000019 85.528213640000004 -79.705174049999997 87.400174050000004 -79.281357170000007 90.031357170000007 -78.035859990000006 91.565859990000007 -76.678584299999983 92.298584300000002 -75.509344969999987 93.39434497000002 -74.677573750000008 93.592571359999994 -72.919427970000001 93.545667420000001 -68.973880329999986 94.851564539999998 -67.435400020000017 93.969599979999998 -64.694430909999994 93.190569089999997 -62.491151930000008 91.828848070000006 -60.631377600000008 91.088622400000006 -59.97019173000001 90.954811809999995 -57.763385720000009 90.968386519999996 -57.331504790000004 91.151504790000004 -55.433800089999991 92.973800089999997 -54.654772889999997 95.014772890000003 -54.137212600000005 95.558501620000001 -53.736941920000007 95.597809170000005 -50.548453180000003 94.966546820000019 -48.679655120000007 95.01465512 -46.199680550000004 96.03968055 -44.22365525 97.463655250000002 -43.44975113000001 98.894751130000003 -43.156327509999997 101.98632751 -43.544777530000005 107.71022247000001 -43.597177870000003 112.3 -43.541044530000001 115.81104453 -43.162398060000001 119.18239806 -42.995251940000003 119.94525194000001 -42.057013009999991 121.87201301000002 -41.580908180000009 123.81590817999999 -40.453993780000005 126.47399378 -40.254686939999999 127.82968694 -40.015126810000005 128.22997470999999 -39.416127149999994 128.2537834 -36.295144870000001 127.35485513 -31.971856260000003 126.52314373999999 -29.893552270000001 126.27644773 -29.179166900000002 125.97083309999998 -27.59666155 124.70833845000001 -25.08882492 124.36348446 -20.999963340000001 124.76996334 -19.009390069999998 125.21439006999999 -12.747864209999999 128.21286421000002 -10.475841539999999 128.85584154 -8.6368927800000002 129.61689278 -3.0345306000000001 130.8545306 2.6480511500000001 132.63194884999999 4.4937365299999996 132.98587273000001 6.0042865900000004 132.82892636 8.2652360399999996 133.04476206999999 9.6389517100000024 132.98895171000001 13.778772249999999 132.27377225000001 17.128529140000001 131.96058482999999 20.517712490000001 132.12771248999999 24.704275339999999 131.24427534 26.671544870000002 130.49654487000001 28.377033560000001 130.09840130000001 29.799934390000001 130.28708872999999 31.607039060000002 129.86203906 34.49186804 129.89813196 36.867506169999999 131.05749383 38.918523100000002 133.58647690000001 39.640618330000002 135.08438167 40.573238809999999 136.45676119000001 42.092543149999997 140.97745685000001 42.876626909999999 144.02337309000001 43.313178059999991 148.5 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                            <gml:interior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-78.209131449999987 -60.54626399 -78.489903770000012 -61.795049369999994 -78.888339340000002 -61.955306559999997 -79.456037790000011 -60.466037789999994 -79.94310852000001 -60.18810852 -80.073483420000017 -59.923483420000004 -80.080618519999987 -57.599381479999998 -79.529843780000007 -54.646270970000003 -79.377804280000021 -54.466822110000003 -78.992855799999987 -54.557997360000009 -78.471055699999994 -55.0810557 -78.46809605 -56.521903950000009 -78.739677139999998 -57.809097940000008 -78.209131449999987 -60.54626399 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:interior>
+                            <gml:interior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-75.539978120000001 -68.035639599999996 -75.974284220000015 -68.129457500000001 -75.996056089999996 -67.482543590000006 -75.539978120000001 -68.035639599999996 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:interior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-0cade11f-389f-46c7-a81a-8726a2ea5421</gpml:identity>
+            <gpml:revision>GPlates-50a59814-dbf1-4072-bad7-f0fea0b37c98</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">6.22112905 73.528751549999996 6.1961479600000002 74.341147960000001 5.9920229200000001 74.997022920000006 5.4487245800000004 75.543724580000003 4.6912658399999998 75.951265840000005 4.0026763599999997 76.090494930000006 3.3714841799999999 75.973515820000017 2.8220241499999998 75.587975850000007 2.4403351999999998 74.949664799999994 2.3151016599999998 74.252706070000002 2.50597834 73.41097834 2.9976509899999999 72.787650990000003 3.9660043300000001 72.106030900000007 4.5488803999999998 72.03211761 5.19266702 72.297332979999993 5.9048197900000012 72.85518021 6.22112905 73.528751549999996 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-e4df5411-f3c8-4fe7-8278-1fd811a4f8d7</gpml:identity>
+            <gpml:revision>GPlates-0fbc03be-c55c-49a5-86cd-45cdb6674d25</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-4.3393781899999997 74.010091630000005 -4.4146433500000004 74.550398259999994 -4.7160861599999997 75.033913839999997 -5.2404059299999997 75.48459407 -5.8601773399999999 75.708650710000001 -6.8228904999999997 75.517890499999993 -7.3640346800000005 74.581494669999998 -7.3334112400000002 74.056367429999995 -7.0437187300000001 73.491281270000002 -6.5783715699999998 72.991628430000006 -6.0178977099999997 72.782156029999996 -4.9433554099999997 72.943355409999995 -4.5153904200000001 73.47038895 -4.3393781899999997 74.010091630000005 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-77d7f50a-847f-4bb1-8c4d-456f7fd31e27</gpml:identity>
+            <gpml:revision>GPlates-a761ee54-b9c4-4efc-85b2-209fc520589c</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-14.92013064 69.717189110000007 -15.079811810000001 70.595188190000002 -15.59468893 71.210286879999998 -16.323763809999999 71.331625419999995 -16.930949779999999 70.870949780000004 -17.089373940000002 70.354373940000002 -17.05619978 69.388800219999993 -16.832576929999998 68.967423069999995 -16.355037209999999 68.599982749999995 -15.89600435 68.469515180000002 -15.412086539999999 68.627086539999993 -15.034788170000001 69.059788170000004 -14.92013064 69.717189110000007 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-4c83cc27-f1c8-416c-94ca-c02af6e37504</gpml:identity>
+            <gpml:revision>GPlates-d93d47fb-e379-48f9-af9d-175f8f713eaf</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">11.1479854 66.987756279999999 10.97437424 67.509384859999997 10.4508498 68.165849800000004 9.4666578099999992 68.871657810000002 8.6464314400000006 69.032213630000001 8.0046067400000016 68.975389079999999 7.4651512799999997 68.759848719999994 7.1634671000000001 68.386533999999997 7.1585791499999996 67.008579150000003 7.3022818599999999 66.427281859999994 7.6894234699999995 65.964423470000014 8.6005695499999995 65.435569549999997 9.5384512600000004 65.241028060000005 10.26276756 65.442232440000012 11.00758312 66.362413930000002 11.1479854 66.987756279999999 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-ab4abb1c-4792-4b13-91c5-c7eda5e30753</gpml:identity>
+            <gpml:revision>GPlates-7b795bc3-8398-44b5-8c7a-cb3381df0743</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-21.678088549999998 65.863896789999998 -21.924941490000002 66.595058510000001 -22.60458015 67.170419850000002 -23.24267545 67.391558149999994 -24.109546210000001 67.269546210000001 -25.014936320000004 66.639936320000004 -25.483328989999997 65.973328989999999 -25.627081140000001 65.335718080000007 -25.497399469999998 64.157600529999996 -25.169934150000003 63.800065849999996 -24.5852331 63.541949760000008 -23.580532439999999 63.720532440000007 -22.369063560000001 64.474063560000005 -21.832458729999999 65.302458729999998 -21.678088549999998 65.863896789999998 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-5627a89e-6613-4a34-87ca-62e1a87e71c5</gpml:identity>
+            <gpml:revision>GPlates-292ba797-593c-4942-9aba-abb2b1ac723b</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-29.520802090000004 58.668896820000001 -29.635172300000001 59.349827699999999 -30.096388619999999 59.958611380000001 -30.973803990000011 60.591127180000008 -31.822312990000004 60.601593200000003 -32.534259489999997 60.199259489999996 -33.011195839999999 59.536195840000005 -33.488218500000002 58.378245070000006 -33.474267009999998 57.505718250000008 -32.677513900000001 56.307486100000006 -32.253447770000001 56.040301280000008 -31.897077639999999 56.018828720000002 -30.021987289999995 57.411987289999999 -29.65862551 58.013625509999997 -29.520802090000004 58.668896820000001 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-7ff52695-a5a5-4f41-88a5-642437eb3af6</gpml:identity>
+            <gpml:revision>GPlates-70ecb099-3244-4043-b16c-d9f9f93c9f26</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">13.02870609 58.018470669999999 12.92085163 59.005851630000009 12.511127140000001 59.711127140000009 11.88215301 60.107072160000008 11.06012934 60.044870660000008 10.595515860000001 59.359484139999992 10.34121854 58.438781460000001 10.31735014 57.352350139999999 10.53620031 56.641200310000002 11.19916409 55.999655599999997 12.05264406 56.0573616 12.618136399999999 56.64686360000001 13.02870609 58.018470669999999 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-ee859ddd-4a10-4d01-91ac-0144055566c7</gpml:identity>
+            <gpml:revision>GPlates-6abbcb02-0440-43a4-87d9-2c4550a11125</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-42.36955205000001 46.91955205 -42.428590299999996 48.141409700000004 -42.798978249999998 48.986021749999999 -43.400040429999997 49.309330989999999 -44.017309890000007 49.127307989999998 -44.394138130000002 48.549138130000003 -44.590576820000003 47.814580220000003 -44.488513019999999 47.166486980000002 -44.126972389999999 46.548027609999991 -43.575822709999997 46.079233180000003 -43.072253580000002 46.028401800000005 -42.53215771 46.40715771 -42.36955205000001 46.91955205 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-6ea01c2b-d02a-43d2-b083-069740f0f64f</gpml:identity>
+            <gpml:revision>GPlates-ded2c4eb-e3d1-4334-aa17-1941265ab3cc</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">12.47557323 47.924299959999999 12.46081603 48.515865429999998 12.201395059999999 49.031208370000002 11.92169412 49.207346039999997 11.51619457 49.13851305 10.847759440000001 48.262240560000002 10.739902640000002 47.568249639999998 10.84214485 47.106838379999999 11.31644084 46.762095199999997 11.883851970000002 46.836338910000002 12.21118588 47.178814119999998 12.47557323 47.924299959999999 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-030a5a54-f051-4115-9dc1-a1e505561c07</gpml:identity>
+            <gpml:revision>GPlates-78bb82b6-243d-4682-be2a-ad8f05880a91</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">9.62987532 40.870070939999998 9.6193601700000002 41.529378250000001 9.4406717100000002 41.970656980000001 9.0073951500000007 42.157095150000004 8.5470166200000008 41.982968649999997 8.0957315899999998 41.544268410000001 7.8597019299999999 41.035356479999997 7.8225998700000003 40.451271610000006 7.9967081000000011 39.786717560000007 8.4424138800000001 39.560479870000002 9.0000730400000002 39.81492732000001 9.4610194500000002 40.303980549999999 9.62987532 40.870070939999998 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-5cfa11ff-1dec-453b-bdb3-af1ea4b28bff</gpml:identity>
+            <gpml:revision>GPlates-777a0833-f203-44c6-b18e-2cc662b9a53a</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-48.921447620000002 38.170504870000002 -48.98309196000001 38.846910979999997 -49.344307909999998 39.510692090000006 -49.770597809999998 39.999240960000002 -50.174797730000009 40.123055569999998 -50.881106750000001 39.926106750000002 -51.417333830000004 39.49233383 -51.724645539999997 38.874645540000003 -51.839713299999993 38.065153899999999 -51.48283481 37.017165190000007 -50.906784989999998 36.413229739999998 -50.433223699999999 36.234135629999997 -49.89357910999999 36.39857911 -49.443179810000004 36.803179810000003 -48.921447620000002 38.170504870000002 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-e8073a25-e3ce-4496-888c-aaeabea306a3</gpml:identity>
+            <gpml:revision>GPlates-0625b896-b809-47c9-945f-c307a8699197</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">9.4315853300000008 12.818414669999999 9.4133553499999998 13.773355349999997 9.1028174400000008 15.237817440000002 7.9393202399999998 18.914320239999999 6.3398267199999996 25.16982672 6.1006035700000005 28.130565440000002 6.2923123600000004 32.278414410000003 6.1467811599999997 34.282175510000002 5.88634419 34.596539830000005 5.47314743 34.456833649999993 4.5311193100000002 33.543880690000009 2.2552484000000002 29.429751600000003 0.49303629000000004 27.256963710000001 -1.9988342699999999 25.333834270000001 -4.9218516399999999 23.79685164 -7.0801957 23.1551957 -12.390500279999999 19.57550028 -16.0519058 17.446905800000003 -18.138510230000001 15.533510229999999 -19.96292025 13.322920249999999 -21.545841299999999 10.580841299999999 -22.51803765 8.3980376499999991 -22.677708830000004 7.7027123599999996 -22.60583711 5.5691628900000003 -21.819183389999999 2.3058166100000004 -21.600805390000001 -0.040805389999999997 -20.209202680000001 -3.4142026799999998 -17.965969829999999 -6.8709698300000008 -16.642180969999998 -10.55218097 -14.873680469999998 -13.368680469999999 -13.62162009 -16.491620090000001 -12.65022315 -17.505223149999999 -10.17278527 -19.227785269999995 -9.2797505699999991 -19.69475057 -7.57985972 -20.049859719999997 -6.1634450300000001 -21.218445030000005 -5.3551188200000004 -21.580118819999996 -4.4500967200000012 -21.599895880000002 -3.39123128 -21.09376872 -2.7792804800000006 -20.445719519999997 -1.8125411 -18.557458900000004 -1.3468412299999999 -16.443158769999997 0.33742441000000001 -11.977424409999998 1.1813274199999999 -11.05132742 2.7659981400000002 -9.7159981399999999 3.9885354700000004 -8.9235354699999991 5.5642671899999998 -7.3542671900000007 6.2506596800000001 -5.9606596799999991 6.6830901899999997 -4.3711879400000004 6.5159190400000009 -3.0690809600000004 5.7342584299999997 -0.67074157000000001 5.78430087 1.0606991299999999 6.1751965100000001 2.3098034900000002 7.0302634099999999 4.0447365900000003 8.0474066299999993 6.6975933699999999 9.2659018399999997 11.42409816 9.4315853300000008 12.818414669999999 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-b314b817-5bde-4ee1-aad5-a9c2838b19b0</gpml:identity>
+            <gpml:revision>GPlates-aa7bc0c8-a2da-42db-8d4b-528ed9bf6076</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-59.925815240000006 21.674393749999997 -60.008382440000005 22.03947599 -60.06045515000001 21.466077649999999 -59.925815240000006 21.674393749999997 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-ac867d78-ebe2-47a2-bcd9-77e80e0d8266</gpml:identity>
+            <gpml:revision>GPlates-58382fc1-5e35-4ee2-b155-3ed132dce502</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-30.697930440000004 9.5006914799999986 -30.911780470000007 9.7933449199999991 -31.457575160000005 9.7823882700000002 -33.181733690000002 9.0089165500000004 -34.88136798 9.2736320200000026 -36.246711130000001 10.973288870000001 -37.144594050000002 12.660405949999998 -37.9279115 13.6970885 -38.756397200000002 14.348602799999997 -39.942925379999998 14.72691339 -41.054305190000001 14.664305190000002 -44.69099666000001 14.006762699999999 -45.724770239999998 14.120229760000001 -48.033631040000003 14.824677020000001 -51.97484867 13.896951570000001 -55.948163430000008 13.973508780000001 -56.529676719999998 13.674676720000003 -57.31902886999999 12.70402887 -57.822611660000007 11.95761166 -58.130595749999991 10.995595749999998 -58.440674730000005 8.3206747300000021 -58.892020850000009 6.3570208499999996 -58.940723870000006 4.7342761299999987 -58.675314950000001 2.9876358200000004 -58.837911730000009 1.4279117299999997 -59.474186360000004 -0.47581364000000004 -60.351580060000003 -1.8984199400000004 -60.719789619999993 -3.4052103800000006 -61.707647790000003 -5.2623522099999995 -62.428260309999999 -8.4867396900000003 -63.534678450000008 -11.11032155 -63.696369880000006 -12.425000000000002 -63.462610439999992 -15.167610440000002 -62.92567592000001 -17.08567592 -62.052931999999998 -18.452931999999997 -60.849536749999999 -19.659536750000001 -59.988939670000001 -21.838939670000002 -59.400033169999993 -24.530033169999999 -58.986855769999998 -25.041855770000002 -57.9707492 -25.340749200000001 -57.776773850000005 -26.776773850000001 -57.321083290000004 -27.356083289999997 -56.301603120000003 -27.711603119999999 -54.71609586000001 -27.678904140000004 -50.933358179999999 -26.226641820000005 -49.968401259999993 -26.069696489999995 -47.026055309999997 -26.088944689999998 -45.541618509999999 -25.793381490000005 -44.02728063 -25.13271937 -42.84539298 -24.239607020000001 -41.341126809999999 -23.693873189999998 -39.519632299999998 -22.6353677 -37.469989190000007 -21.250010809999999 -36.851516299999993 -20.553483700000001 -35.83727906 -18.327720939999999 -35.069847680000002 -15.700152320000004 -33.443761879999997 -6.3462381199999998 -33.462183080000003 -3.8421830799999999 -33.947346109999998 0.33765389000000001 -33.713732970000009 4.7037329699999999 -33.102652149999997 6.5126521500000001 -32.480798830000005 7.1857988300000004 -31.277804809999992 8.0728048099999992 -30.925653270000002 8.6006532700000005 -30.697930440000004 9.5006914799999986 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-009b8aae-2348-4bcc-b8b4-43e062b3b441</gpml:identity>
+            <gpml:revision>GPlates-38bccd3f-b856-425e-80d0-81a7ac752c9a</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-60.069973760000003 9.4199737599999995 -60.190557579999997 11.204442420000001 -60.703829020000008 11.810793289999999 -61.13121215000001 11.92009286 -61.422151579999998 11.6507816 -61.506390539999998 11.313090020000001 -61.098159129999999 9.36184087 -60.787775790000005 8.8326425400000002 -60.488327509999998 8.6647727299999993 -60.20865792 8.8888310700000002 -60.069973760000003 9.4199737599999995 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-839a4c20-0af6-4055-8e8e-d8643882a8d3</gpml:identity>
+            <gpml:revision>GPlates-79f598d9-29e2-42f3-9050-a9f7de015931</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">11.39987455 -59.483482630000005 11.06021161 -57.819788389999999 10.621948400000001 -56.893051600000007 9.8770682900000022 -56.097931710000005 7.5464815100000004 -54.643518489999998 6.0704448900000001 -52.094555110000002 5.4033398200000002 -49.681660180000002 5.0234207800000004 -46.671579219999998 4.4939945300000002 -44.341005469999999 4.0297184399999999 -42.575281560000008 3.4855231799999999 -41.674476820000002 2.5910691199999998 -40.878930879999999 0.33351911000000001 -39.546480889999991 -1.5517513999999999 -38.8417514 -3.9628631800000003 -37.552863180000003 -8.9770853099999997 -35.437085310000008 -10.504731659999999 -35.275589429999997 -11.9758432 -35.526284320000002 -13.732711930000001 -35.542288070000005 -16.403792070000002 -36.651207929999998 -22.611516349999999 -38.118483650000002 -25.121235920000004 -39.043764080000003 -28.701120790000004 -41.533879210000002 -31.625940020000002 -43.964059980000002 -33.94211044 -46.592889559999996 -35.448225290000011 -49.311774710000009 -36.852983080000001 -53.017016920000003 -37.018280560000001 -54.251719440000002 -37.516714159999999 -55.673285839999998 -37.692539080000003 -56.871902980000002 -37.272463340000002 -59.24746334000001 -37.053317870000001 -62.21331786999999 -37.298348539999999 -71.254907639999999 -37.040137950000002 -78.416377400000002 -36.376457510000002 -85.611457509999994 -35.987779209999999 -87.057779210000007 -35.104395040000007 -89.084395040000004 -34.035564260000001 -90.620564259999995 -32.909612439999997 -91.899612439999999 -31.480722 -92.780721999999997 -30.766385560000003 -93.016385560000003 -29.90335284 -93.041646360000001 -26.2618939 -92.458106099999995 -24.584282380000001 -92.354282380000001 -23.498339720000001 -92.53833972000001 -22.837446719999999 -93.092446719999998 -21.475381030000001 -95.175381029999997 -19.17291225 -98.082912250000007 -18.70997942 -99.944979419999996 -18.10842353 -104.15342353 -17.558765080000001 -106.03876508 -15.229393059999998 -110.56939306000001 -14.52808602 -111.58308602 -13.993530379999999 -111.97353038 -13.336964350000001 -112.19511193 -12.58159453 -112.15320475 -9.5850629099999995 -110.90493709 -8.4203799799999999 -109.42962002 -7.3657677700000006 -107.62923223 -5.4672504100000001 -102.92774959 -4.3429016599999999 -99.592098340000007 -3.8425617599999997 -97.462438239999997 -3.0822413300000004 -95.442758670000003 -1.4831344900000001 -92.366865509999997 -0.038404649999999999 -89.056595349999995 0.7994952500000001 -86.539495250000002 2.4718219399999999 -82.416821940000005 3.55142259 -79.081422590000003 4.7397792399999998 -73.524779240000001 6.6488263600000002 -67.478826359999999 7.5142695400000008 -65.944269539999993 8.2278684399999999 -64.217868440000004 10.48272203 -61.442722030000006 11.04901007 -60.509010070000009 11.39987455 -59.483482630000005 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-33654847-c938-4628-ba43-507b689019a5</gpml:identity>
+            <gpml:revision>GPlates-8b3f3b61-a3ce-486a-9132-52f12e9476d9</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-41.71970752 -52.781214339999998 -41.890532670000006 -51.880532670000001 -42.334705040000003 -51.545525559999994 -42.730258219999996 -51.48351255 -43.439312999999999 -51.920687000000008 -44.533504189999995 -53.146495809999998 -45.108780379999992 -54.081219619999999 -45.519658579999998 -55.360341419999997 -45.588297879999999 -56.888297880000003 -45.341965279999997 -57.53191992 -44.934030759999999 -57.67328663 -44.381160830000006 -57.553838810000009 -43.412213830000006 -56.697786170000001 -42.272758369999998 -54.962241630000001 -41.71970752 -52.781214339999998 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-c13b61c8-4af0-4260-b693-70d9c372e513</gpml:identity>
+            <gpml:revision>GPlates-e7c7e838-0439-46eb-a39c-1a2247969400</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-43.522152779999999 -67.527847219999998 -43.610892819999997 -64.560839079999994 -43.829834410000004 -63.189834410000003 -44.253397390000003 -62.433397390000003 -44.950590380000001 -62.212112170000005 -45.459100100000008 -62.795899899999995 -46.032777439999997 -63.987222560000006 -46.538106679999999 -65.946893320000001 -46.134547650000009 -69.414547650000003 -45.908530119999995 -70.153530119999999 -45.584480419999998 -70.604468539999999 -44.974786399999992 -70.669926090000004 -44.495582249999998 -70.384417749999997 -43.886588620000005 -69.098411380000002 -43.522152779999999 -67.527847219999998 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-bdeae11f-251d-4c2b-a9ed-e66cad7ec005</gpml:identity>
+            <gpml:revision>GPlates-c46f7a50-a9b7-4b59-b297-03690f78eccb</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-52.619881739999997 -70.18011826 -52.690045750000003 -69.020045749999994 -53.178971220000008 -68.455291619999997 -53.98166839999999 -68.598331639999998 -54.926363899999998 -69.603636100000003 -55.970139329999995 -71.832897520000003 -54.998110150000002 -73.412949830000002 -54.415451670000003 -73.460693280000001 -53.46279998 -72.707200020000002 -52.895551349999998 -71.48944865 -52.619881739999997 -70.18011826 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-dea3708a-afd7-44fe-9dbe-1235d2921689</gpml:identity>
+            <gpml:revision>GPlates-77604e9f-bfbb-44f6-93ff-e1b6f39de9ea</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-40.923959540000006 -76.687018199999997 -41.076288609999999 -75.856288610000007 -41.709852850000004 -74.929853050000006 -42.18198769 -74.679264230000001 -42.891255410000007 -74.873744590000001 -43.390791830000005 -75.344208170000002 -43.595726540000001 -75.819273460000005 -43.748068849999996 -77.248989609999995 -43.57192543 -78.111925429999999 -43.23191216 -78.526912159999995 -42.827596890000009 -78.731594630000004 -41.803846720000003 -78.566153279999995 -41.16609141 -77.853908590000003 -40.923959540000006 -76.687018199999997 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-4b055f56-53ec-49b7-afcb-89db8467b0df</gpml:identity>
+            <gpml:revision>GPlates-4886e31e-f601-4c5d-a6be-4c62dd01670b</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-39.118410969999999 -89.281589030000021 -39.187603090000003 -87.522603090000004 -39.445088009999999 -87.17971163 -39.841040040000003 -87.185645019999995 -40.532463479999997 -87.852536520000001 -41.133537929999996 -89.021462069999998 -41.133056640000007 -91.618056640000006 -40.979155939999991 -92.104155939999998 -40.609334050000001 -92.463513160000005 -39.999079080000001 -92.275917379999996 -39.438651930000006 -91.546348069999993 -39.195000499999999 -90.634999500000006 -39.118410969999999 -89.281589030000021 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-c8fcacf1-b4f6-474f-a116-2129733c9fe9</gpml:identity>
+            <gpml:revision>GPlates-8c9ca7b3-aa0c-4957-82db-f78569bf07bd</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">-22.97415659 -116.08684314 -23.077470510000001 -115.48746106 -23.674277190000002 -114.82427719 -24.533802770000001 -114.26880276999999 -25.55232539 -113.85732539 -27.0597657 -113.5147657 -30.046037910000006 -111.25603791 -30.731753159999993 -110.94675316 -32.114082930000002 -110.58235525000001 -33.371137509999997 -111.43886249000002 -33.743982389999999 -112.01601761000001 -33.84031572 -112.76164398 -33.644193439999995 -113.77419344 -32.572910559999997 -115.04291056000001 -30.327390940000004 -116.56739094 -27.567203580000005 -117.97220358 -25.82027781 -119.14527781 -24.708686029999999 -119.24334346000001 -23.92066281 -118.96433719000001 -23.115399719999999 -116.96460028 -22.97415659 -116.08684314 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-85dea401-fd44-45c8-9bd5-16030f49b145</gpml:identity>
+            <gpml:revision>GPlates-04433906-0102-4721-961a-5b8ece6f204b</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">21.513679459999999 -158.51109885000002 21.03355307 -158.01194047999999 20.989460209999997 -157.47465653 20.487257339999999 -156.55274266000001 19.402472750000001 -155.27752724999999 18.258308920000001 -154.50669108000002 17.198730879999999 -154.20408534000001 16.379976899999999 -154.33997744999999 15.258510640000001 -155.25851064 14.123544819999999 -155.60506873 13.53004587 -155.4898795 12.351845669999999 -154.62815433 10.85758508 -154.61258508 10.51646335 -154.83646335 9.7451746099999994 -155.89017461 9.4707162700000005 -156.93571627 9.4748154699999994 -157.76018453 9.73269144 -158.87230855999999 10.35074245 -160.01425755 11.309044220000001 -160.76095578000002 13.08188013 -161.10231185999999 13.722722320000001 -161.05732019000001 14.493294759999999 -160.59329475999999 15.271828709999998 -158.90682871000001 15.890691190000002 -158.53071775999999 16.52234876 -158.49345889 19.90109468 -159.61738579999999 21.248844810000001 -158.86888712999999 21.513679459999999 -158.51109885000002 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:UnclassifiedFeature>
+            <gpml:identity>GPlates-8f092013-31b7-4ba4-935c-776b56c1f319</gpml:identity>
+            <gpml:revision>GPlates-bff83e18-3e21-4a1d-b757-5e9a7e802584</gpml:revision>
+            <gpml:unclassifiedGeometry>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:Polygon>
+                            <gml:exterior>
+                                <gml:LinearRing>
+                                    <gml:posList gml:dimension="2">30.012771459999993 -169.46279344999999 29.855157609999999 -168.06484239 28.437908260000004 -165.04209173999999 26.619655560000002 -163.08034444 25.483728119999999 -161.50127187999999 24.020940889999999 -160.72908036999999 23.508351480000005 -160.81955159 23.442498659999998 -161.20680909000001 24.468524859999999 -163.92147514000001 26.132803989999999 -166.58719601000001 27.880873190000003 -168.62912681 28.92833559 -169.60666441000001 29.566327729999998 -169.87814806 30.012771459999993 -169.46279344999999 </gml:posList>
+                                </gml:LinearRing>
+                            </gml:exterior>
+                        </gml:Polygon>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:Polygon</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:unclassifiedGeometry>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary/>
+            </gpml:shapefileAttributes>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantPast</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">http://gplates.org/times/distantFuture</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+        </gpml:UnclassifiedFeature>
+    </gml:featureMember>
+</gpml:FeatureCollection>
