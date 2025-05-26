@@ -1,6 +1,6 @@
 # Orectolobiformes-diversification
 
-<p align="justify"> This repository's purpose is to give a means of replicability to the article "" but can be generalized to other similar data.</p>
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "Hopping hotspots shaped the global biogeography and diversification of orectolobiform sharks" but can be generalized to other similar data.</p>
 
 ## Overview
 
