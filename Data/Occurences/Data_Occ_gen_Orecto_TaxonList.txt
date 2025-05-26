@@ -1,0 +1,50 @@
+Species	Status
+Acanthoscyllium	extinct
+Adnetoscyllium	extinct
+Almascyllium	extinct
+Annea	extinct
+Brachaelurid (gen. nov.)	extinct
+Brachaelurus	extant
+Cantioscyllium	extinct
+Cederstroemia	extinct
+Chiloscyllium	extant
+Coelometlaouia	extinct
+Cretorectolobus	extinct
+Delpitoscyllium	extinct
+Dorsetoscyllium	extinct
+Eometlaouia	extinct
+Eostegostoma	extinct
+Folipistrix	extinct
+Ganntouria	extinct
+Garrigascyllium	extinct
+Ginglymostoma	extant
+Hemiscyllium	extant
+Heterophorcynus	extinct
+Hologinglymostoma	extinct
+Magistrauia	extinct
+Mesiteia	extinct
+Nebrius	extant
+Notoramphoscyllium	extinct
+Orecto gen. nov.1	extinct
+Orecto gen. nov.2	extinct
+Orectolobiformes indet.	extinct
+Orectoloboides	extinct
+Orectolobus	extant
+Ornatoscyllium	extinct
+Palaeobrachaelurus	extinct
+Palaeocarcharias	extinct
+Palaeorectolobus	extinct
+Palaeorhincodon	extinct
+Paraginglymostoma	extinct
+Parahemiscyllium	extinct
+Pararhincodon	extinct
+Parascyllium	extant
+Phorcynis	extinct
+Plicatoscyllium	extinct
+Protoginglymostoma	extinct
+Pseudoginglymostoma	extant
+Pseudospinax	extinct
+Restesia	extinct
+Rhincodon	extant
+Squatiscyllium	extinct
+Stegostoma	extant

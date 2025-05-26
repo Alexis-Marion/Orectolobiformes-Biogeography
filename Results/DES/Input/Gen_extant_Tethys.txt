@@ -1,0 +1,12 @@
+scientificName	higherGeography
+Brachaelurus	Outside_Tethys
+Chiloscyllium	Outside_Tethys
+Cirrhoscyllium	Outside_Tethys
+Ginglymostoma	Outside_Tethys
+Hemiscyllium	Outside_Tethys
+Nebrius	Outside_Tethys
+Orectolobus	Outside_Tethys
+Parascyllium	Outside_Tethys
+Pseudoginglymostoma	Outside_Tethys
+Rhincodon	Outside_Tethys
+Stegostoma	Outside_Tethys

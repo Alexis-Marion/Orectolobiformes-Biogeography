@@ -1,0 +1,8 @@
+Event	Age (in Myrs)	Adjacency East Pacific	Adjacency West Atlantic	Adjacency East Atlantic	Adjacency Tethys	Adjacency West Indo-Pacific	Adjacency Central Indo-Pacific	Adjacency Australasia
+Zanclean-Holocene	3.1	c(1,2,6)	c(1,2,3)	c(2,3,4,5)	c(3,4)	c(3,5,6)	c(1,5,6,7)	c(6,7)
+Langhian-Zanclean	15.97	c(1,2,6)	c(1,2,3)	c(2,3,4,5)	c(3,4)	c(3,5,6)	c(1,5,6,7)	c(6,7)
+Rupelian-Burdigalian	33.9	c(1,2,6)	c(1,2,3)	c(2,3,4,5)	c(3,4,5)	c(3,4,5,6)	c(1,5,6)	7
+Ypresian-Priabonian	56	c(1,2,6,7)	c(1,2,3,7)	c(2,3,4,5)	c(3,4,5)	c(3,4,5,6)	c(1,5,6)	c(1,2,7)
+Cenomanian-Thanetian	100.5	c(1,2,6,7)	c(1,2,3,7)	c(2,3,4,5)	c(3,4,5,6)	c(3,4,5)	c(1,4,6)	c(1,2,7)
+Aalenian-Albian	174.1	c(1,2,5,7)	c(1,2,3)	c(2,3,4)	c(3,4,5,6)	c(4,5,7)	c(4,6)	c(1,5,7)
+Asselian-Toarcien	298.9	c(1,4,6,7)	0	0	c(1,4,5,6,7)	c(4,5,7)	c(1,4,6)	c(1,4,5,7)
