@@ -141,7 +141,7 @@
 
 <p align="justify"> In this section, the provided script runs Bayesian DES analyses on four datasets with expected shifts at 66 and 33.9 Myrs ago for 200,000 MCMC generation, each on twenty DES replicates. </p>
 
-### 2.2.4 Prepare DES data
+### 2.2.4 DES plotting
 
 `used directory (Plot_Bigeo)`
 
