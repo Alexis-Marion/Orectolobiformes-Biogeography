@@ -8,15 +8,15 @@
 	- [1.1 Preservation model](#11-Preservation-model)
 	- [1.2 Running PyRate](#12-Running-Pyrate)
 	- [1.3 Assess convergence](#13-Assess-convergence)
-  	- [1.4 Combining paleontological and neontological data](#14-Combining-paleontological-and-neontological-data)
-  	- [1.5 Plotting PyRate results](#15-Plotting-PyRate-results)
+ 	- [1.4 Combining paleontological and neontological data](#14-Combining-paleontological-and-neontological-data)
+ 	- [1.5 Plotting PyRate results](#15-Plotting-PyRate-results)
 - [2 Analyses of historical biogeography](#2-Analyses-of-historical-biogeography)
  	- [2.1 Historical biogeography with DEC](#21-Historical-biogeography-with-DEC)
  		- [2.1.1 Prepare DEC data](#211-Prepare-DEC-data)
 		- [2.1.2 DEC analyses](#212-DEC-analyses)
 		- [2.1.3 Compute relative likelihood](#213-Compute-relative-likelihood)
-    		- [2.1.4  Plotting DEC ancestral range estimates](#214-Plotting-DEC-ancestral-range-estimates)
-        - [2.2 Historical biogeography with DEC](#21-Historical-biogeography-with-DEC)
+  		- [2.1.4 Plotting DEC ancestral range estimates](#214-Plotting-DEC-ancestral-range-estimates)
+    - [2.2 Historical biogeography with DEC](#22-Historical-biogeography-with-DEC)
 		- [2.2.1 Simulation DES](#221-Simulation-DES)
  		- [2.2.2 Prepare DES data](#222-Prepare-DES-data)
  		- [2.2.3 DES analyses](#223-DES-analyses)
@@ -35,7 +35,7 @@
 
 `used directory (BDS)`
 
-<p align="justify">  In this first session, we will be using PyRate (Silvestro et al, 2014). PyRate is a program implemented in Python whose aim is to jointly estimate the preservation process, the tempo of origination and extinction of lineages based on their occurrences in the fossil record. Here, we will assume that the PyRate repository with its functions is at the root of the current working directory.</p>
+<p align="justify"> In this first session, we will be using PyRate (Silvestro et al, 2014). PyRate is a program implemented in Python whose aim is to jointly estimate the preservation process, the tempo of origination and extinction of lineages based on their occurrences in the fossil record. Here, we will assume that the PyRate repository with its functions is at the root of the current working directory.</p>
 
 ### 1.1 Preservation model
 
@@ -68,7 +68,7 @@
 
 `used script (Ts_Te_combined.r; Ts_Te_combined_Biogeography.r)`
 
-<p align="justify"> The script used in this section permits to create additional Ts_Te files that can be later used in PyRate. The combination method used here is that of Brée et al. (2022) and consists of extracting the estimated Time for Speciation (Ts) and Time for Extinction (Te) estimated with PyRate, and merging them with the estimated extant taxa age from a dated phylogeny. Additionally, we used the method from Calderón del Cid et al. (2024) for estimating a corrected species age from branch lengths. Here, we did so by extracting the branch length  from 100 posterior trees (Marion et al., 2024) of all extant species that are not sampled in the fossil record and merging them with the Ts Te estimated with PyRate. Additionally, these scripts prepare the combination for the DES analyses (#223-DES-analyses). </p>
+<p align="justify"> The script used in this section permits to create additional Ts_Te files that can be later used in PyRate. The combination method used here is that of Brée et al. (2022) and consists of extracting the estimated Time for Speciation (Ts) and Time for Extinction (Te) estimated with PyRate, and merging them with the estimated extant taxa age from a dated phylogeny. Additionally, we used the method from Calderón del Cid et al. (2024) for estimating a corrected species age from branch lengths. Here, we did so by extracting the branch length from 100 posterior trees (Marion et al., 2024) of all extant species that are not sampled in the fossil record and merging them with the Ts Te estimated with PyRate. Additionally, these scripts prepare the combination for the DES analyses (#223-DES-analyses). </p>
 
 ### 1.5 Plotting PyRate results
 
@@ -97,7 +97,7 @@
 
 `used script (DEC_BGB_consensus_tree.r, DEC_BGB_posterior_distribution.r, run_DEC_BGB_consensus.sh, run_DEC_BGB_posterior.sh)`
 
-<p align="justify"> In this section, the provided script permits performing time-stratified DEC analyses with BioGeoBEARS (Matzke, 2014) on a consensus or posterior tree distribution. The scripts permits to allow, no, two or four fossil constraints and the addition of a time-stratified dispersal matrix.  Following the completion of DEC, each script will save an output file with the relative probability of the three most likely range states, and the rest of the states represented as "uncertain" with marginal likelihood. </p>
+<p align="justify"> In this section, the provided script permits performing time-stratified DEC analyses with BioGeoBEARS (Matzke, 2014) on a consensus or posterior tree distribution. The scripts permits to allow, no, two or four fossil constraints and the addition of a time-stratified dispersal matrix. Following the completion of DEC, each script will save an output file with the relative probability of the three most likely range states, and the rest of the states represented as "uncertain" with marginal likelihood. </p>
 
 ### 2.1.3 Compute relative likelihood
 
@@ -125,7 +125,7 @@
 
 <p align="justify"> The DES model is a relatively new framework in paleobiology for estimating biogeographic dynamics through time (Silvestro et al., 2016; Hauffe et al., 2023). Thus, few empirical examples have used this model for answering macroevolutionary questions. To assess whether we had the statistical power for accurately estimating rate parameters, we simulated several DES datasets (with the R packagen SimDES; Hauffe et al., 2023) with properties resembling our empirical dataset. We reported the likelihood of accurately recovering the generating model and parameter precision. </p>
 
-### 2.2.2  Prepare DES data
+### 2.2.2 Prepare DES data
 
 `used directory (Prepare_DES_data)`
 
@@ -133,7 +133,7 @@
 
 <p align="justify"> In this section, the provided scripts permit to prepare a DES occurrence table from a regular occurrence table. </p>
 
-### 2.2.3  DES analyses
+### 2.2.3 DES analyses
 
 `used directory (DES_analyses)`
 
@@ -141,7 +141,7 @@
 
 <p align="justify"> In this section, the provided script runs Bayesian DES analyses on four datasets with expected shifts at 66 and 33.9 Myrs ago for 200,000 MCMC generation, each on twenty DES replicates. </p>
 
-### 2.2.4  Prepare DES data
+### 2.2.4 Prepare DES data
 
 `used directory (Plot_Bigeo)`
 
