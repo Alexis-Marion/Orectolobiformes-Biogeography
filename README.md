@@ -28,7 +28,7 @@
 
 ## Overview
 
-<p align="justify"> This repository's purpose is to give a means of replicability to the article "Hopping hotspots shaped the global biogeography and diversification of orectolobiform sharks" but can be generalised to other similar data. All of the presented scripts are written in R language (R Core Team, 2022). Each script is available as both an annotated notebook (.ipynb) and a raw .r file (unannotated). Raw data are in the "Data" directory. If you plan to use any of these scripts, please cite "XXX". </p>
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "Hopping hotspots shaped the global biogeography and diversification of orectolobiform sharks" but can be generalised to other similar data. All of the presented scripts are written in R language (R Core Team, 2022). Each script is available as both an annotated notebook (.ipynb) and a raw .r file (unannotated). Raw data are in the "Data" directory. </p>
 
 
 ## 1 Bayesian estimation of deep-time diversification with PyRate
